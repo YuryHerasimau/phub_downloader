@@ -54,6 +54,7 @@ def download_video(url, format):
 def main():
     # print(get_info(url="https://www.pornhub.com/view_video.php?viewkey=ph60fd9d9a77c6f"))
     # print(get_info(url="https://rt.pornhub.com/view_video.php?viewkey=6746df53599a7"))
+    # print(get_info(url="https://rt.pornhub.com/view_video.php?viewkey=67a0aa78275d5"))
 
     url = input("Введите URL: ")
     url = url.strip()
