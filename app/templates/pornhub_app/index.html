@@ -1,7 +1,10 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
-
+    <div class="logo_img">
+        <img src="{% static 'img/pornhub_logo.png' %}" alt="logo">
+    </div>
     <form id="get_info_form" action="" method="post">
         {% csrf_token %}
         {{ form.title }}
@@ -30,5 +33,4 @@
             </div>
         </form>
     {% endif %}
-
 {% endblock %}
