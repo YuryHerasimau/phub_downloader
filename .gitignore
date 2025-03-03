@@ -17,3 +17,6 @@ __pycache__/
 
 # Video
 *.mp4
+
+# Debug
+debug.log
